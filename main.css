@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  background: #ddd;
+  color: #111;
+  text-shadow: 0 1px 0 #fff;
+  font-family: sans-serif;
+  padding: 1em;
+}
+
+canvas {
+  background: transparent;
+  border: 2px solid #000;
+}
+
+#cache {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -20000px;
+  overflow: hidden;
+}
+
+#block {
+  display: none;
+}
